@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1">
+	<title>Title IX</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!--It's v4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--My external JS file-->
+	<script type="text/javascript" src="title9.js"></script>
+	<script type="text/javascript" src="anchors.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body  class="stopscrolling" data-spy="scroll">
+
+
+
+
+<!--SplashPage Content-->
+<div id="splashpage" class="text-center">
+	<div class="logo">
+		<a href="https://youthradio.org/" target="_blank">
+		<img src="img/yrwhite.png" width="100px" height="50px" alt="YR logo"></a>
+
+	</div>	
+    <br><br>
+    <div class="splash-info"> 
+	<h1 class="text-center">Title IX</h1><br>
+	<p id="context" class="text-center">How should your high school handle a sexual assault complaint?  Use this tool to figure out if your school is protecting your rights (and if not, what you can do about it).</p></div>
+	<br>
+	<div id="splashbb" class="text-center">
+
+	<a href="#content"><button class="btn btn-secondary btn-lg" id="startbutton"> Start</button></a>
+	</div>
+
+	<!--<div id="splashsb" class="text-center">
+
+	<a href="#content"><button class="btn btn-secondary btn-sm" id="startbutton"> Start</button></a>
+	</div>-->
+</div>
+<!--Side/Nav Bar; z-index:-1| Rows put it all out of wack so I didn't put it in a row-->
+<div id="sidebar" class="col-sm-12">
+	<div id="navdivtext">
+		<div class="text-center">
+			<a href="https://youthradio.org/" target="_blank">
+			<img src="img/footer-logo.png" height="70px" alt="YR logo"></a>
+		<br>
+		<br>
+		<h2 class="text-center">WHAT IS TITLE IX?</h2>
+		</div>
+		<p id="desc"><a target="_blank" href="https://www2.ed.gov/about/offices/list/ocr/docs/tix_dis.html"><b>Title IX</b></a> of the Education Amendments Act of 1972 is a federal law that states: "No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance." </p>
+		<audio controls> <source src="Shawn Wasabi - OTTER POP (ft. Hollis).mp3	" type="audio/mpeg"> </audio>
+	</div>
+	<div id="navdivbuttons">
+		<ul class="nav nav-pills flex-sm-column" >
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#teacher" value="1">Investigation</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#principal" value="2">Reporting</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#meeting" value="3">Accommodations</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#interim" value="img/background4.jpg">Participation</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#investigation" value="img/windows.jpg">Application</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navbutton navbarbutton" href="#decision" value="img/background5.jpg">The Decision</a>
+			</li>
+		</ul>
+		<br>
+	</div>
+</div>
+<!--Content blocks-->
+<div class= "row Intro">
+	<div id="content">
+		<div class="row BGimage1">
+			<div class="col-sm-4">
+			</div>
+				<!--image --> 
+
+			<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+				
+				<div>
+				<h2 class="subheader">What does Title IX have to do with sexual assault?</h2>
+			
+				<p>If you are a student who has experienced sexual <a target="_blank" href="https://www.knowyourix.org/high-school-resource/title-ix/">violence or harassment</a>, you may have the right to seek support and justice through your school under Title IX. But unfortunately, many schools are not in compliance with Title IX's requirements. <a target="_blank" href="https://youthradio.org/">Over the past three years, there has been a sixfold increase in federal investigations into K-12 schools for the way they handle sexual assault claims.</a></p>
+				
+				<i>Take a moment to read through these scenarios and select the way you think your school would respond. You might be surprised with the rights guaranteed to you by Title IX.</i>
+				</div>
+			<br>
+				<div class="text-right">
+				<button class="btn nextbutton navbutton" href="#teacher">next</button>
+				</div>
+			</div>
+			
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!--Tell A Teacher-->
+<div id="teacher" value="1" class="row BGimage2">
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<div>
+			<h2 class="subheader">Investigation: Tell A Teacher</h2>
+			<b>A student at your high school tells a teacher they were sexually assaulted at a party over the weekend. How would a teacher at your school respond?</b>
+		</div>
+		<p class="font-italic text-center">Click to see if Title IX covers it</p>
+		<div>
+			<button id="teacherOption1" class="clickbutton btn-block" value="<b>NON-COMPLIANCE</b> <br> <p>
+			Actually, federal law <a target='_blank' href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152'>requires schools to look into sexual harassment and assault</a>, which both fall under Title IX, a law most commonly associated with women's access to sports. Title IX has been around since the 1970's, but in recent years it has been increasingly applied to sexual assault. Under Title IX, schools may even be accountable for off-campus assaults.</p>">Encourage the student to tell the police or connect to outside resources, but not investigate the matter personally -- the school staff care about students, but it's not their role to investigate these matters.</button>
+			<button id="teacherOption2" class="clickbutton btn-block" value="<b>COMPLIANCE</b> <br> <p>
+			That's right. Federal law <a target='_blank' href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152'>requires schools to look into sexual harassment and assault</a>, which both fall under Title IX, a law most commonly associated with women's access to sports. Title IX has been around since the 1970's, but in recent years it has been increasingly applied to sexual assault. Under Title IX, schools may even be accountable for off-campus assaults.</p>
+			">Have an administrator investigate the allegations -- that's part of the school's job, regardless of whether the student decides to involve the police..</button>
+		</div>
+		<div>
+			<p id="teacherContent"><p>
+		</div>
+		<div class="text-right">
+		<button id="next1" class="nextbutton hidden navbutton btn" href="#principal">next</button>
+		</div>
+		<div class="col-sm-1">
+		</div>
+	</div>
+</div>
+<!--Principal Role-->
+<div id="principal" value="2" class="row BGimage3">
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<div>
+			<h2 class="subheader">Reporting: Principal Role</h2>
+			<b>Does your school have a designated Title IX Coordinator?</b>
+		</div>
+		<p class="font-italic text-center">Click to see if Title IX covers it</p>
+		<div>
+			<button id="principalOption1" class="clickbutton btn-block" value="<b>COMPLIANCE</b><br><p>
+			Nice! It sounds like your school is on-track for this particular requirement. Every school is supposed to have a <a target='_blank' href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.</p>">
+			Yup. My school makes it easy to find their name, office, address, and telephone number.</button>
+			<button id="principalOption2" class="clickbutton btn-block" value="<b>NON-COMPLIANCE</b> <br> <p>
+			Well that's not right. Not only is your school supposed to have a <a target='_blank' href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152'>Title IX Coordinator</a>, you're supposed to be notified about how to contact them. Coordinators are responsible for making sure students are aware of their Title IX rights, and that your school is in  compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.</p>
+			">Yes, but noone seems to know how to contact them.
+			</button>	
+			<button id="principalOption3" class="clickbutton btn-block" value="<b>NON-COMPLIANCE</b><br><p>
+			Your school has work to do. Every school is supposed to have a <a target='_blank' href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.</p>
+			">Um, no. What is that?
+			</button>
+		</div>
+		<div>
+			<p id="principalContent"></p>
+		</div>
+		<div class="text-right">
+		<button id="next2" class="nextbutton hidden navbutton btn" href="#meeting">next</button>
+		</div>
+	</div>
+	<div class="col-sm-1">
+	</div>
+</div>
+<!--Meeting-->
+<div id="meeting" value="3" class="row BGimage4">
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<div>
+			<h2 class="subheader">Accommodations: The Meeting</h2>
+			<b>While your school is looking into a student sexual assault claim, what kinds of resources would your school offer them?</b>
+		</div>
+		<p class="font-italic text-center">Click to see if Title IX covers it</p>
+		<div>
+			<button id="meetingOption1" class="clickbutton btn-block" value="<b>NON-COMPLIANCE</b><br><p>
+			</p>">None. Your school is not required to provide any supports while an investigation is still underway. It depends on if they find the accused student guilty of any wrongdoing.</button>
+			<button id="meetingOption2" class="clickbutton btn-block" value="<b>COMPLIANCE</b><br><p>
+			</p>">Supports such as free counseling services, the ability to change your class schedule, academic tutoring, medical  support, and extra security.
+</button>
+		</div>
+		<div>
+			<p id="meetingContent"><p>
+		</div>
+		<div class="text-right">
+		<button id="next3" class="nextbutton hidden navbutton btn" href="#interim">next</button>
+		</div>
+	</div>
+	<div class="col-sm-1">
+	</div>
+</div>
+<!--Interim Measures-->
+<div id="interim" value="4" class="row BGimage5">
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<div>
+			<h2 class="subheader">Participation</h2>
+			<b>Let's say a student does not want to participate in a formal investigation of a sexual assault. What does your school do?</b>
+		</div>
+		<p class="font-italic text-center">Click to see if Title IX covers it</p>
+		<div>
+			<button id="interimOption1" class="interimOption clickbutton btn-block" value="<b>NON-COMPLIANCE</b><br><p>
+			</p>">Call off the investigation.</button>
+			<button id="interimOption2" class="interimOption clickbutton btn-block" value="<b>COMPLIANCE</b><br><p>
+			</p>">Possibly proceed with the investigation without the student's consent (if they believe it's in the best interest of the student body's safety)</button>
+		</div>
+		<div>
+			<p id="interimContent"></p>
+		</div>
+		<div class="text-right">
+		<button id="next4" class="nextbutton hidden navbutton btn" href="#investigation">next</button>
+		</div>
+	</div>
+	<div class="col-sm-1">
+	</div>
+</div>
+<!--Investigation-->
+<div id="investigation" value="5"class="row BGimage6" >
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<div>
+			<h2 class="subheader">Application</h2>
+			<b>Woah, Title IX covers a bunch of stuff. What other ways might Title IX protections be applied at my school?</b>	
+		</div>
+		<p class="font-italic text-center">Hover to see if it complies to Title IX</p>
+		<div>		
+			<button id="investigationOption1" class="hoverbutton btn-block" value="Yup, Title IX covers this.">Preventing or investigating rape, unwanted touching, inappropriate comments, ONLINE?</button>
+			<button id="investigationOption2" class="hoverbutton btn-block" value="Nope. This sounds pretty cool, but Title IX technically doesn't cover this.">Changing the curriculum to make sure women's history and rights are being taught in class</button>
+			<button id="investigationOption3" class="hoverbutton btn-block" value="Yup, Title IX covers this.">Changing unfair access to equipment for boys' and girls' sports teams</button>
+			<button id="investigationOption4" class="hoverbutton btn-block" value="Yup, Title IX covers this.">Granting access to the bathroom or locker room that corresponds with students' gender identity</button>
+			<button id="investigationOption5" class="hoverbutton btn-block" value="Ooh ouch... your really school needs to up its Title IX compliance game. More on that below.">Yeah, my school doesn't offer any of these</button>
+		</div>
+		<div>
+			<p id="investigationContent"><p>
+		</div>
+		<div class="text-right">
+		<button id="next5" class="nextbutton hidden navbutton btn" href="#decision">next</button>
+		</div>
+	</div>
+	<div class="col-sm-1">
+	</div>
+</div>
+<!--The Decision-->
+<div id="decision" value="6" class="row BGimage7">
+	<div class="col-sm-4">
+	</div>
+	<div id="infospace" class="col-sm-7"><!--Put stuff in here only-->
+		<h2 class="subheader">The Decision</h2>
+		<b>Now you have a better sense of whether your school is in compliance with Title IX. If there are some areas you'd like to your school to work on, here are a few steps you can take?</b>
+		<br>
+		<br>
+		<ul>
+			<li>File and office of civil rights complaint</li>
+			<li>File a civic suit against your school</li>
+			<li>Approach administration and ask for a policy</li>
+			<li>Attend a school board meeting and advocate for compliance</li>
+		</ul>
+	</div>
+	<div class="col-sm-1">
+	</div>
+</div>
+</div>
+</body>
+</html>
