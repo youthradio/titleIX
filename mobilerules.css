@@ -1,0 +1,50 @@
+/* 
+
+Media queries are a block of CSS rules that only applies to a browser's
+window size, or a device's size depending on your specification. The @media
+specification works as a True or False statement depending on said device
+or window size, so if your window reaches a minimum width of say, 220px,
+any rule you specify under that block where the minimum width 
+asks for 220px will apply to the webpage. Keep in mind though that this
+will apply to literally anything over 220px, so to stop a rule from applying,
+you'd need a max-width, where your query will stop applying to the page.
+
+In the case of a mobile design, both max-width and max-height will work
+and apply to all devices, but max-device-width/height will specifically
+be suitable for mobile devices where it's rendering are the exact sizes
+of what you specify. I'll be using max-width/max-height only for right
+now, I also won't bother with max-height but it'll apply the same.
+
+*/
+
+
+
+@media only screen 
+and (min-width: 0px)
+and (max-width: 736px){
+/* 
+
+This is the max-width of the iPhone 6 Plus, I won't specify the 
+minimum width because:
+A. I'm lazy right now
+and B. I believe you can make queries inside queries as long as
+the code doesn't interfere with other code. Don't quote me on that!
+
+I think it'd be a good idea to start the max width when the navbar starts
+to fall under the window!
+*/
+
+
+	#navbar{
+		display: none;
+	}
+
+	.tall{
+		height: 40vh;
+	}
+
+/* Now that the screen size is under 736px, the navbar will Get Out and .tall will become
+Less Tall */
+
+
+
