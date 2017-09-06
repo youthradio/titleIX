@@ -24,6 +24,8 @@
         border: 1px grey solid; 
       }
 
+      
+
      
     </style>
 
@@ -69,7 +71,9 @@
 
       <div class="col-sm-12 col-md-3 bg-light text-gray-dark tall " height="100%">
         
-        <h3 class="text-center mt-4 " ><strong> NO EXCUSES:</strong> <br><h4 class="text-center">What Your School Should Do When You Report a Sexual Assault</h4></h3></h2>
+        <h5 class="text-center mt-4 " > <img class="img-fluid" src="NoExcuses.png">  
+        <br>What Your School Should Do When You Report a Sexual Assault</h5>
+
         <p> We’re hearing a lot about campus sexual assault at colleges, but what about high schools? Your school has responsibilities when it comes to investigating and preventing sexual violence. Use this quiz to see how your school measures up. </p>
 
      
@@ -92,7 +96,7 @@
     
     <!--slides page --> 
 
-     <div class="col-sm-12 col-md-9 mt-3">
+     <div class="col-sm-12 col-md-9 mt-3" id="slides">
        <!--  1 -->
        <div class="row" id="1" >
         <div class="col">
@@ -137,7 +141,7 @@
 
           
                <div class='row story' style ='display: none;'>
-               <div class=' p-3'><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid" >
+               <div class=' p-3'><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
                 <br> <strong> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? Pressure from Teens.</h4></strong><em>by Charlie Stuip</em> -  Featured on NPR <br> 
                 <audio controls='' width="500px">
     <source src='https://youthradio.org/wp-content/uploads/2017/08/2535642_YR_TitleIX_SexualHarassment.mp3' type='audio/mpeg'>
@@ -218,12 +222,12 @@
 
       " <strong> NON-COMPLIANCE</strong> <br> Well that’s not right. Not only is your school supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>, you’re supposed to be notified about how to contact them. Coordinators are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.", 
 
-      " <strong>COMPLIANCE </strong> <br>Your school is on track. A student should have the right to < a href='https://www.knowyourix.org/high-school-resource/frequently-asked-questions/' target='_blank'>certain accommodations</a> before, during, and after an investigation into an alleged assault. The types of support they’re entitled to depends on the situation, but may include medical, counseling, and academic support services.",
+      " <strong>COMPLIANCE </strong> <br>Your school is on track. A student should have the right to <a href='https://www.knowyourix.org/high-school-resource/frequently-asked-questions/' target='_blank'>certain accommodations</a> before, during, and after an investigation into an alleged assault. The types of support they’re entitled to depends on the situation, but may include medical, counseling, and academic support services.",
 
       " <strong> COMPLIANCE </strong> <br> Your school’s on track here. Before you are excluded from school for a longer period, you would be entitled to a fair hearing to present your side of the case.",];
 
 
-      var imgL = ["investigate.png","schoolparty.png", "IX.png","chalkboard.png","title.png", "", "protections.png"];
+      var imgL = ["investigate.png","schoolparty.png", "IX.png","chalkboard.png","privacyV2.png","title.png",  "protections.png"];
 
       var v1 =["",""];
   
@@ -287,6 +291,7 @@
           $("#btn1").hide();
           $("#btn2").hide();
           $("#btn3").hide();
+          $("#story").hide();
 
 
           
@@ -302,6 +307,7 @@
             $("#btn1").hide();
             $("#btn2").hide();
             $("#btn3").hide();
+             $("#story").hide();
           
 
       });
@@ -313,6 +319,7 @@
             $("#btn1").hide();
             $("#btn2").hide();
             $("#btn3").hide();
+             $("#story").hide();
           
 
       });
@@ -363,7 +370,7 @@
             $("#btn2").fadeOut();
             $("#btn3").fadeOut();
             $(".card-text").append("<br> <br><ul> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a>  </li> <li>Approach administration and ask for a policy</li> <li>Attend a school coard meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li></ul> For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/'>here</a>, or  listening below. ");
-            $(".story").fadeIn();
+            $(".story").show();
 
           } else {
             $("#btn3").fadeOut();
@@ -391,6 +398,7 @@
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
+           $(".story").hide();
 
           index = index + 1;
          
@@ -428,6 +436,7 @@
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
+           $(".story").hide();
           index = index + 1;
          
           $("#s"+bar).removeClass("active");
@@ -442,6 +451,7 @@
           $("#s4").removeClass("active");
           $("#s5").removeClass("active");
           $("#s6").removeClass("active");
+           $(".story").hide();
 
            if (index === 3){
             $("#btn3").fadeIn(); 
@@ -504,6 +514,7 @@
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
+           $(".story").hide();
           index = index + 1;
          
           $("#s"+bar).removeClass("active");
@@ -541,6 +552,7 @@
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
+          $(".story").hide();
         
           index = index + 1;
          
@@ -580,6 +592,7 @@
           $("#btn1").fadeOut();
           $("#btn2").fadeOut();
           $("#apply").fadeIn();
+           $(".story").hide();
      
 
           index = index + 1;
