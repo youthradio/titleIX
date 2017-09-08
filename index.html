@@ -57,9 +57,13 @@
       }
 
       .com{
-        color:#608147;
+        color:#31A62C;
         font-weight: bold;
 
+      }
+
+      a{
+        color:#00A5BB;
       }
 
      
@@ -177,8 +181,16 @@
               <button href="#" class="btn-block" id="btn3" style="display:none;">Um, no. What is that?
  </button>
               <br>
-              <p style="display:none;" class="result lead"> result </p>
+              <div class="row pb-2">
+                <div class="col-sm-12 col-md-2 text-center">
+                  <img src=' ' class="img-fluid " id="ansImage">
+                </div>
+                <div class ="col-sm-12 col-md-10">
+                 <p style="display:none;" class="result lead"> result </p>
+                </div>
 
+              </div>
+              
 
                <button class="btn btn-outline-info btn-block n1" id="n1" > next </button>
 
@@ -272,7 +284,9 @@
 
       var imgL = ["investigate.png","schoolparty.png", "IX.png","chalkboard.png","privacyV2.png","title.png",  "protections.png"];
 
-      var v1 =["",""];
+      var ansImg1 =["","Nope.png","Nope.png","Yup.png","Nope.png","Nope.png",];
+      var ansImg2 =["","Yup.png","Yup.png","Nope.png","Yup.png","Yup.png",];
+      var nope = "Nope.png"
   
       var index = 0; 
       var bar = -1;  
@@ -281,14 +295,15 @@
         $("#splash").fadeOut("slow");
         $("#t9").fadeIn("slow");
         $("body").css("background-image", "url('rollover.png')");
+        $("#ansImage").hide();
+
 
       });
 
       $("body").css("background-image", "url('splash.png')");
-       $("#video").html(v1[vIndex]);
 
       $("#ph1").hover(function(){
-        $(this).css("background-color", "green");
+        $(this).css("background-color", "#31A62C");
         $(this).html("Yup, Title IX covers this.")
         }, function(){
         $(this).css("background-color", "white");
@@ -296,7 +311,7 @@
     });
   
       $("#ph2").hover(function(){
-        $(this).css("background-color", "green");
+        $(this).css("background-color", "#31A62C");
         $(this).html("Yup, Title IX covers this.")
         }, function(){
         $(this).css("background-color", "white");
@@ -304,7 +319,7 @@
     });
 
       $("#ph3").hover(function(){
-        $(this).css("background-color", "red");
+        $(this).css("background-color", "#E26970");
         $(this).html("Nope. This sounds pretty cool, but Title IX technically doesn’t cover this.")
         }, function(){
         $(this).css("background-color", "white");
@@ -312,7 +327,7 @@
     });
 
       $("#ph4").hover(function(){
-              $(this).css("background-color", "green");
+              $(this).css("background-color", "#31A62C");
               $(this).html("Yup, Title IX covers this.")
               }, function(){
               $(this).css("background-color", "white");
@@ -320,7 +335,7 @@
           });
 
       $("#ph5").hover(function(){
-              $(this).css("background-color", "green");
+              $(this).css("background-color", "#31A62C");
               $(this).html("Yup, Title IX covers this.")
               }, function(){
               $(this).css("background-color", "white");
@@ -331,12 +346,15 @@
 
       $("#btn1").click(function(){
           $("#n1").fadeIn("slow");
+          $("#ansImage").show();
           $(".result").html(ans1[index]);
+          $("#ansImage").attr('src',ansImg1[index]);
           $(".result").fadeIn();
           $("#btn1").hide();
           $("#btn2").hide();
           $("#btn3").hide();
           $("#story").hide();
+          $()
 
 
           
@@ -348,6 +366,8 @@
        $("#btn2").click(function(){
           $("#n1").fadeIn("slow");
             $(".result").html(ans2[index]);
+            $("#ansImage").show();
+            $("#ansImage").attr('src',ansImg2[index]);
             $(".result").fadeIn();
             $("#btn1").hide();
             $("#btn2").hide();
@@ -359,12 +379,16 @@
 
       $("#btn3").click(function(){
           $("#n1").fadeIn("slow");
-            $(".result").html("<strong> NON-COMPLIANCE </strong><br> Your school has work to do. Every school is supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.");
+            $(".result").html("<strong class='incom'> NON-COMPLIANCE </strong><br> Your school has work to do. Every school is supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.");            
+            $("#ansImage").show();
+             $("#ansImage").attr('src',ansImg1[1]);
+
             $(".result").fadeIn();
             $("#btn1").hide();
             $("#btn2").hide();
             $("#btn3").hide();
              $("#story").hide();
+
           
 
       });
@@ -372,7 +396,6 @@
 
         $("#n1").click(function(){
           vIndex = vIndex + 1; 
-           $("#video").html(v1[vIndex]);
           $("body").css("background-image", 'url(' + imgL[index] + ')');
           $("#s"+index).addClass("active");
           $(".card-title").html(tList[index]);
@@ -381,6 +404,9 @@
           $("#btn2").html(opt2[index]);
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
+         $("#ansImage").hide();
+
+
 
 
           index = index + 1;
