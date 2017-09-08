@@ -41,9 +41,12 @@ to fall under the window!
 
 	
 	.tall{
-		height: 50vh;
+		height: 100vh;
 	}
-
+	
+	#lead{
+		15px;
+	}
 	#sideImage{
 		height: 100px;
 	}
