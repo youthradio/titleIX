@@ -190,7 +190,6 @@
               <br> 
               <button href="#" class="btn-block" id="btn3" style="display:none;">Um, no. What is that?
  </button>
-              <br>
               <div class="row pb-2">
                 <div class="col-sm-12 col-md-2 text-center">
                   <img src=' ' class="img-fluid " id="ansImage">
@@ -205,9 +204,11 @@
                <button class="btn btn-outline-info btn-block n1" id="n1" > next </button>
 
           
-               <div class='row story' style ='display: none;'>
-               <div class=' p-3'><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
-                <br> <strong> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? Pressure from Teens.</h4></strong><em>by Charlie Stuip</em> -  Featured on NPR <br> 
+               <div class='row story text-center' style ='display: none;'>
+
+               <div class=' col-12 px-3'>
+                <strong> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? <br> Pressure from Teens.</h4></strong><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
+                <br> <em>by Charlie Stuip</em> -  Featured on NPR <br> 
                 <audio controls='' width="500px">
     <source src='https://youthradio.org/wp-content/uploads/2017/08/2535642_YR_TitleIX_SexualHarassment.mp3' type='audio/mpeg'>
     </audio>
@@ -480,6 +481,8 @@
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
            $(".story").hide();
+          $("#ansImage").hide();
+
 
           index = index + 1;
          
@@ -518,6 +521,8 @@
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
            $(".story").hide();
+           $("#ansImage").hide();
+
           index = index + 1;
          
           $("#s"+bar).removeClass("active");
@@ -557,6 +562,8 @@
           $("#btn1").fadeIn();
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
+          $("#ansImage").hide();
+
 
           index = index + 1;
          
@@ -596,6 +603,8 @@
           $("#btn2").fadeIn();
           $("#apply").fadeOut();
            $(".story").hide();
+           $("#ansImage").hide();
+
           index = index + 1;
          
           $("#s"+bar).removeClass("active");
@@ -674,6 +683,8 @@
           $("#btn2").fadeOut();
           $("#apply").fadeIn();
            $(".story").hide();
+           $("#ansImage").hide();
+
      
 
           index = index + 1;
@@ -705,6 +716,7 @@
          
           index = 6;
           bar = 5;
+          $("#ansImage").hide();
 
 
            if (index === 3){
