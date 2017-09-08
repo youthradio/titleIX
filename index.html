@@ -11,6 +11,7 @@
       
       .tall{
         height: 100vh;
+
       }
 
       .one{
@@ -23,6 +24,15 @@
         background-color: white;
         border: 1px grey solid; 
       }
+      #splash{
+        height:100vh;
+        color:white;
+        background-image: url("splash.png");
+        text-shadow: 3px 2px grey;
+
+      }
+      
+      
 
       
 
@@ -34,21 +44,22 @@
 
   </head>
   <body>
-    <div class="container-fluid" style="height:100vh;background-color: white;" id="splash">
-       <div class="row">
-            <div class="col-1">
+    <div class="container-fluid" id="splash" >
+       <div class="row" >
+            <div class="col-md-2 mt-5 col-sm-12">
+              <img src="youthradiologo.png " >
             </div>
 
-            <div class="col-10 mt-5 text-center ">
+            <div class="col-md-8 mt-5 text-center col-sm-12"  >
 
-                <h1 class="text-center"> <strong> NO EXCUSES: </strong> <br> What Your School Should Do When You Report a Sexual Assault </h1>
-            <br> 
-            <p class="text-center">How should your high school handle a sexual assault complaint?  Use this tool to figure out if your school is protecting your rights (and if not, what you can do about it).</p>
+                <h1 class="text-center " style= "margin-top: 12%;"> <strong> <img src="noexcuses.png" class="img-fluid"> <br>What Your School Should Do When You Report a Sexual Assault</strong>  </h1>
+            <br> <br>
+            <h4 class="text-center">How should your high school handle a sexual assault complaint? <br> <em> Use this tool to figure out if your school is protecting your rights (and if not, what you can do about it).</em></h4>
 
             <button type="" id="start"> <em> start </em> </button>
             </div>
 
-            <div class="col-1">
+            <div class="col-md-2 col-sm-12">
             </div>
 
 
@@ -59,7 +70,7 @@
     </div>
 
     <div class="container-fluid"  id="t9" style="display:none;"> 
-    <!--splash page --> 
+  
     <div class="row">
     </div>
 
@@ -72,7 +83,7 @@
       <div class="col-sm-12 col-md-3 bg-light text-gray-dark tall " height="100%">
         
         <h5 class="text-center mt-4 " > <img class="img-fluid" src="NoExcuses.png">  
-        <br>What Your School Should Do When You Report a Sexual Assault</h5>
+        <br >What Your School Should Do When You Report a Sexual Assault</h5>
 
         <p> We’re hearing a lot about campus sexual assault at colleges, but what about high schools? Your school has responsibilities when it comes to investigating and preventing sexual violence. Use this quiz to see how your school measures up. </p>
 
@@ -96,28 +107,30 @@
     
     <!--slides page --> 
 
-     <div class="col-sm-12 col-md-9 mt-3" id="slides">
+     <div class="col-sm-12 col-md-9 mt-5" id="slides">
        <!--  1 -->
+       <div class="row mt-5">
+       </div>
        <div class="row" id="1" >
         <div class="col">
         </div>
 
         <div class="col-10 my-3">
+
           <div class="card" style="width:100%; ">
             <div class="card-body">
-              <h4 class="card-title"> How should high schools fight sexual violence?  </h4>
-              <div id="video"> </div> 
+              <h3 class="card-title "> How should high schools fight sexual violence?  </h3> 
 
-              <p class="card-text"> 
+              <p class="card-text lead"> 
                 <br> Because of a law called <a href="https://www2.ed.gov/about/offices/list/ocr/docs/tix_dis.html" target="_blank">Title IX</a>, if you are a student who has experienced <a href="https://www.knowyourix.org/high-school-resource/title-ix/" target="_blank">sexual violence or harassment</a>, you have the right to ask your school to investigate, offer protections, and establish consequences. But many schools are not in compliance with Title IX. In fact, investigations into possible mishandlings of sexual assault complaints in K-12 schools are up 500 percent since 2014. 
 
                 
-                <em> <br> <br>Curious if your school is protecting your Title IX rights? Take a moment to read through these scenarios and select the way you think your school would respond. You might be surprised with the results!
+                <em> <br> <br>Curious if your school is protecting your Title IX rights? Take a moment to read through these scenarios and select the way you think your school would respond. You might be surprised with the results! 
 
 </em> </p>
               <div id="apply" style="display:none;" >   
                   <button id="ph1" class="btn-block" value="">Preventing or investigating rape, unwanted touching, inappropriate comment</button>
-
+                  
                   <button id="ph2" class="hoverbutton btn-block" value="">Addressing gender-based cyber-bullying between students, such as revenge porn</button>
 
 
@@ -129,8 +142,9 @@
           </div>
 
               <button href="#" class=" btn-block" id="btn1"  style="display:none;" ></button>
-
+              <br>
               <button href="#" class="btn-block" id="btn2" style="display:none;"></button>
+              <br> 
               <button href="#" class="btn-block" id="btn3" style="display:none;">Um, no. What is that?
  </button>
               <br>
@@ -237,9 +251,11 @@
       $("#start").click(function() {
         $("#splash").fadeOut("slow");
         $("#t9").fadeIn("slow");
+        $("body").css("background-image", "url('rollover.png')");
+
       });
 
-      $("body").css("background-image", "url('rollover.png')");
+      $("body").css("background-image", "url('splash.png')");
        $("#video").html(v1[vIndex]);
 
       $("#ph1").hover(function(){
