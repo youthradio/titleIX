@@ -39,8 +39,13 @@ to fall under the window!
 		display: none;
 	}
 
+	
 	.tall{
-		height: 40vh;
+		height: 50vh;
+	}
+
+	#sideImage{
+		height: 100px;
 	}
 
 /* Now that the screen size is under 736px, the navbar will Get Out and .tall will become
