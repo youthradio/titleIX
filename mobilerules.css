@@ -44,7 +44,9 @@ to fall under the window!
 		height: 120vh;
 	}
 	
-	
+	.lead{
+		font-size: 15px;
+	}
 
 	#sideImage{
 		height: 74px;
