@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> Youth Radio - NO EXCUSES : What Your School Should Do When You Report a Sexual Assault </title>
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <style type="text/css">
    
@@ -39,6 +40,11 @@
         background-color: #00A5BB;
       }
 
+      h5{
+        font-family: 'Merriweather', serif;
+
+      }
+
       #start{
         background-color: #ECCF60;
         color:white;
@@ -55,6 +61,8 @@
         color:white;
         background-image: url("splash.png");
         text-shadow: 3px 2px grey;
+        font-family: 'Merriweather', serif;
+
 
       }
       
@@ -99,7 +107,7 @@
             <br> <br>
             <h4 class="text-center"> <em> Use this tool to figure out if your school is protecting your rights <br>(and if not, what you can do about it).</em></h4>
 
-            <button type="" id="start"> <em> start </em> </button>
+            <button type="" id="start"> <em> START </em> </button>
             <br>
             </div>
 
@@ -308,7 +316,7 @@
 
       var ans2 = [" ", " <strong class='com'> COMPLIANCE </strong> <br>  That’s right. Title IX <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>requires schools to look into allegations of sexual harassment and assault</a>. Title IX has been around since the 1970s to combat gender discrimination in schools, but in recent years it has been increasingly applied to sexual assault complaints.", 
 
-      '<strong class="com">COMPLIANCE </strong> <br> Yup -- even though the incident took on-campus, schools may still have to investigate.  Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs act.',
+      '<strong class="com">COMPLIANCE </strong> <br> Yup -- even though the incident took place off-campus, schools may still have to investigate.  Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs act.',
 
       " <strong class='incom'> NON-COMPLIANCE</strong> <br> Well that’s not right. Not only is your school supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>, you’re also supposed to be notified about how to contact them. Coordinators are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.", 
 
@@ -370,8 +378,8 @@
           });
 
       $("#ph5").hover(function(){
-              $(this).css("background-color", "#31A62C");
-              $(this).html("Yup, Title IX covers this.")
+              $(this).css("background-color", "#E5B350");
+              $(this).html("Possibly. There is political debate on whether this is covered by Title IX.")
               }, function(){
               $(this).css("background-color", "white");
               $(this).html("Granting access to the bathroom or locker room that corresponds with students’ gender identity");
@@ -470,7 +478,7 @@
             $("#btn1").fadeOut();
             $("#btn2").fadeOut();
             $("#btn3").fadeOut();
-            $(".card-text").append("<br> <br><ul> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/' target='_blank'> File a complaint with the Office for Civil Rights</a>  </li> <li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li></ul> <br>For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>here</a>, or by listening below. And refer to <a href='http://www.knowyourix.org/' target='_blank'>Know Your IX</a> for additional answers and resources.  ");
+            $(".card-text").append("<br> <br><ul><li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li></ul> <br>For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>here</a>, or by listening below. And refer to <a href='http://www.knowyourix.org/' target='_blank'>Know Your IX</a> for additional answers and resources.  ");
             $(".story").show();
 
           } else {
@@ -760,7 +768,7 @@
           $("#btn1").hide();
           $("#btn2").hide();
           $("#apply").fadeOut();
-          $(".card-text").append("<br> <br><ul> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a>  </li> <li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li></ul> For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/'>here</a>, or by listening below. ");
+          $(".card-text").append("<br> <br><ul>  <li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li><li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a></li></ul> For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/'>here</a>, or by listening below. ");
           $(".story").show();
 
 
