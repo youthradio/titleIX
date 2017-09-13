@@ -147,6 +147,7 @@
         </div>
        
        <br> 
+        <p class="small bu"> Remember, individual cases vary, and Title IX enforcement may change. Use this as a guide, but be sure to talk to a lawyer about any specific cases or complaints.</p>
 
         <p class="small bu" > 
         <strong style="color:grey; background-color: #F8F9FA;"> "No Excuses" was produced,designed and developed by <a href="https://yri.youthradio.org/" target="_blank">Youth Radio</a> . </strong> <br>
@@ -218,8 +219,8 @@
                <div class='row story text-center' style ='display: none;'>
 
                <div class=' col-12 px-3'>
-                <strong> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? <br> Pressure from Teens.</h4></strong><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
-                <br> <em>by Charlie Stuip</em> -  Featured on NPR <br> 
+                <strong> <a href="https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/" target='_blank'> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? <br> Pressure from Teens.</h4></strong><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
+                <br> <em>by Charlie Stuip, Youth Radio Reporter</em> -  Featured on NPR <br> </a>
                 <audio controls='' width="500px">
     <source src='https://youthradio.org/wp-content/uploads/2017/08/2535642_YR_TitleIX_SexualHarassment.mp3' type='audio/mpeg'>
     </audio>
@@ -743,9 +744,9 @@
            if (index === 3){
             $("#btn3").fadeIn(); 
           } else if (index === 7){
-            $("#btn1").fadeOut();
-            $("#btn2").fadeOut();
-            $("#btn3").fadeOut();
+            $("#btn1").hide();
+            $("#btn2").hide();
+            $("#btn3").hide();
            
           } else {
             $("#btn3").fadeOut();
@@ -757,11 +758,11 @@
           $(".card-text").html(dList[index]);
           $("#btn1").html(opt1[index]);
           $("#btn2").html(opt2[index]);
-          $("#btn1").fadeOut();
-          $("#btn2").fadeOut();
+          $("#btn1").hide();
+          $("#btn2").hide();
           $("#apply").fadeOut();
           $(".card-text").append("<br> <br><ul> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a>  </li> <li>Approach administration and ask for a policy</li> <li>Attend a school coard meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li></ul> For more ideas, Check out Youth Radio's report on how students are holding their schools accountable <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/'>here</a>, or by listening below. ");
-          $(".story").fadeIn();
+          $(".story").show();
 
 
 
