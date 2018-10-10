@@ -1,226 +1,277 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title> Youth Radio - NO EXCUSES :Is your high school protecting you from sexual harassment?
- </title>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Youth Radio - NO EXCUSES :Is your high school protecting you from sexual harassment?
+  </title>
   <meta property="og:title" content="Is your high school protecting you from sexual harassment?" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://yri.youthradio.org/noexcuses/" />
-  <meta property="og:image" content="https://yri.youthradio.org/noexcuses/no-excuses-og.png" />
+  <meta property="og:image" content="https://yri.youthradio.org/noexcuses/no-excuses-og.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="No Excuses" />
-<meta name="twitter:description" content="Is your high school protecting you from sexual harassment?" />
-<meta name="twitter:image" content="https://yri.youthradio.org/noexcuses/no-excuses-og.png" />
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="shortcut icon" href="img/yrcircle.png">
-    <style type="text/css">
-   
-     .tall{
-        height: 200%;
+  <meta name="twitter:title" content="No Excuses" />
+  <meta name="twitter:description" content="Is your high school protecting you from sexual harassment?" />
+  <meta name="twitter:image" content="https://yri.youthradio.org/noexcuses/no-excuses-og.jpg" />
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/yrcircle.jpg">
+  <style type="text/css">
+    body {
+      padding-top: 81px;
+    }
 
-      }
+    header.yr-fixed-header {
+      position: fixed;
+      z-index: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0 32px;
+      height: 81px;
+      background-color: #2E2E2E;
+    }
 
-      .bu{
-        background-color: #F8F9FA;
-        width: 100%;
-       
+    header.yr-fixed-header .logo a {
+      display: block;
+      outline: 0;
+      width: 40px;
+      height: 40px;
+    }
 
-      }
-      
+    header.yr-fixed-header .search a {
+      display: block;
+      outline: 0;
+      width: 29px;
+      height: 29px;
+    }
 
-      .one{
-        background-color: lavender;
-      }
+    .tall {
+      height: 200%;
 
-     /*div{
+    }
+
+    .bu {
+      background-color: #F8F9FA;
+      width: 100%;
+
+
+    }
+
+
+    .one {
+      background-color: lavender;
+    }
+
+    /*div{
       border: 1px solid black;
      }*/
-      button{
-        border-radius: 10px;
-        background-color: white;
-        border: 1px grey solid; 
-      }
+    button {
+      border-radius: 10px;
+      background-color: white;
+      border: 1px grey solid;
+    }
 
-      button:hover{
-        color:white;
-        background-color: #00A5BB;
-      }
-
-     
-
-      #start{
-        background-color: #FF4A8C;
-        color:white;
-        width: 30%;
-        margin: 10px 0px 20px;        
-        border: 2px  solid #A91F68;
-        font-weight: bold;
+    button:hover {
+      color: white;
+      background-color: #00A5BB;
+    }
 
 
-      }
 
-      a:hover{
-        color: #FF4A8C;
-      }
-
-      #splash{
-        height:100vh;
-        color:white;
-        background-image: url("splash.png");
-       /* text-shadow: 3px 2px grey; */
-        font-family: 'Merriweather', serif;
+    #start {
+      background-color: #FF4A8C;
+      color: white;
+      width: 30%;
+      margin: 10px 0px 20px;
+      border: 2px solid #A91F68;
+      font-weight: bold;
 
 
-      }
-      
-      #start:hover{
-        background-color: #A91F68;
-      }
-      
+    }
 
-      .incom{
-        color:#E26970;
-        font-weight: bold;
-      }
+    a:hover {
+      color: #FF4A8C;
+    }
 
-      .com{
-        color:#31A62C;
-        font-weight: bold;
-
-      }
-
-      a{
-        color:#00A5BB;
-      }
-      
-      .under{
-        z-index: -2;
-      }
-
-      .a{
-        z-index: -1;
-      }
-    
-    </style>
-
-    <link rel="stylesheet" href="mobilerules.css">
+    #splash {
+      height: 100vh;
+      color: white;
+      background-image: url("splash.jpg");
+      /* text-shadow: 3px 2px grey; */
+      font-family: 'Merriweather', serif;
 
 
-  </head>
-  <body>
-    <div class="container-fluid" id="splash" >
-       <div class="row" >
-            <div class="col-md-2 mt-5 col-sm-12">
-              <a href="https://youthradio.org" target='_blank'> <img src="youthradiologo.png " > </a>
-            </div>
+    }
 
-            <div class="col-md-8 mt-5 text-center col-sm-12"  >
-                <img src="header.png" class="img-fluid mt-5 "> 
-            
-                <h1 class="text-center " > <strong>Sexual harassment can happen anywhere &mdash; from Hollywood to much closer to home. <br> <br>What about when it happens at school?
-                </strong>  </h1>
-            <br> <br>
-            <h4 class="text-center"> <em> Use this quiz to find out. </em></h4>
-
-            <button type="" id="start"> <em> START </em> </button>
-            <br>
-            </div>
-
-            <div class="col-md-2 col-sm-12">
-            </div>
+    #start:hover {
+      background-color: #A91F68;
+    }
 
 
-            
+    .incom {
+      color: #E26970;
+      font-weight: bold;
+    }
 
-        </div>
-      
+    .com {
+      color: #31A62C;
+      font-weight: bold;
+
+    }
+
+    a {
+      color: #00A5BB;
+    }
+
+    .under {
+      z-index: -2;
+    }
+
+    .a {
+      z-index: -1;
+    }
+  </style>
+
+  <link rel="stylesheet" href="mobilerules.css">
+
+
+</head>
+
+<body>
+  <header class="yr-fixed-header">
+    <div class="logo">
+      <a href="https://yr.media">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+          <path class="svg-logo" fill="white" fill-rule="evenodd" d="M37.17 0h-1.7c-1.09 0-2.03.6-2.5 1.5-.1.16-.2.46-.31.61-.32.42-.94.74-1.84.74-1.04 0-1.65-.5-1.88-1.12-.44-1-1.44-1.7-2.6-1.7h-1.7a2.83 2.83 0 0 0-2.84 2.81v5.99c0 .83-.82 1.84-1.67 1.84h-.1c-.89-.08-1.52-1.15-1.64-2.13l-.02-.08A2.84 2.84 0 0 0 15.57 6h-1.71a2.83 2.83 0 0 0-2.83 2.82V20.3c-.07 1.07-.86 2.18-1.83 2.18-1 0-1.83-1.2-1.83-2.3V8.83A2.83 2.83 0 0 0 4.54 6H2.83A2.83 2.83 0 0 0 0 8.83V23.6a2.83 2.83 0 0 0 2.83 2.82h1.7a2.83 2.83 0 0 0 2.56-1.6c.1-.2.14-.38.28-.55a1.87 1.87 0 0 1 1.03-.61c.26-.06.52-.1.78-.1 1.04 0 1.84 1 1.84 1.54v13.21c0 3.28 7.38 1.92 7.38-5.27v-19.4c0-1.05.82-1.91 1.64-1.99h.09c.85 0 1.66.99 1.67 1.96v5.78a2.83 2.83 0 0 0 2.83 2.82h1.71a2.83 2.83 0 0 0 2.83-2.82V6.11c0-1.38.66-2.18 1.63-2.18 1 0 1.8 1.16 1.83 2.24v4.24c0 1.56 1.36 1.69 2.82 1.69a4.1 4.1 0 0 0 3.18-1.53A5.09 5.09 0 0 0 40 6.72v-3.9A2.83 2.83 0 0 0 37.17 0"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="search">
+      <a href="https://yr.media/search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29">
+          <path fill="white" fill-rule="evenodd" d="M18.9615 11.719c.0071-3.9946-3.221-7.2436-7.211-7.2574-4.0211-.014-7.276 3.2084-7.289 7.2163-.0128 4.0109 3.2246 7.2728 7.2292 7.2836 4.0057.0108 7.2636-3.2345 7.2708-7.2425m5.0586.2737c-.0798 1.9853-.5593 3.8392-1.498 5.5717-.132.2437-.106.3772.0855.5693 2.0055 2.0138 4.0007 4.0378 5.9988 6.0591.5228.529.5251.8862.0051 1.412-.955.9657-1.9113 1.93-2.8672 2.8948-.6584.6644-.9442.6665-1.5919.0104-1.9526-1.9777-3.9093-3.9516-5.8516-5.9394-.2183-.2236-.3603-.2343-.6303-.0853-7.223 3.9912-15.999-.3946-17.4605-8.2619C-.9923 7.7518 3.0826 1.675 9.5065.2655c6.2571-1.373 12.7108 2.7225 14.1075 8.9773.2014.9019.2739 1.8325.406 2.75" />
+        </svg>
+      </a>
+    </div>
+  </header>
+  <div class="container-fluid" id="splash">
+    <div class="row">
+      <div class="col-md-2 mt-5 col-sm-12">
+      </div>
+
+      <div class="col-md-8 mt-5 text-center col-sm-12">
+        <img src="header.png" class="img-fluid mt-5" alt="">
+
+        <h1 class="text-center "> <strong>Sexual harassment can happen anywhere &mdash; from Hollywood to much closer to home. <br> <br>What about when it happens at school?
+          </strong> </h1>
+        <br> <br>
+        <h4 class="text-center"> <em> Use this quiz to find out. </em></h4>
+
+        <button id="start"> <em> START </em> </button>
+        <br>
+      </div>
+
+      <div class="col-md-2 col-sm-12">
+      </div>
+
+
+
+
     </div>
 
-    <div class="container-fluid"  id="t9" style="display:none;" height="100%" > 
-  
-  
+  </div>
 
-    <!--content page --> 
- 
-    <div class="row" height="100%"> 
+  <div class="container-fluid" id="t9" style="display:none;height:100%">
 
-     <!--sidebar page --> 
+
+
+    <!--content page -->
+
+    <div class="row" style="height:100%">
+
+      <!--sidebar page -->
 
       <div class="col-sm-12 col-md-3 text-gray-dark tall pt-1" style="background-color: #F8F9FA;">
-         <a href="https://youthradio.org" target='_blank'> <img src="yrB.png" class="img-fluid " > </a> 
-        <h5 class="text-center mt-1 " > 
-      
-        <a href="index.html"> <img class="img-fluid" src="headerSM.png" id="sideImage" alt="No Excuses"> </a>
-        <br>  
-        <br>How should your high school handle a sexual harassment complaint?</h5>
+        <h5 class="text-center mt-1 ">
 
-        <p> With the hashtag #MeToo, people are starting to call out the pervasive culture of sexual violence, and to hold institutions accountable. Let's not forget, teens can experience sexual harassment at the place they're required to go everyday: high school. </p>
-        
-        <p> Your school has <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html" target="_blank">responsibilities </a>when it comes to investigating and preventing sexual harassment and violence. Use this quiz to see how your school measures up. 
- 
-        <!--
-        <p>  We’re hearing a lot about campus sexual assault at colleges, but what about high schools? Your school has <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html"> responsibilities</a> when it comes to investigating and preventing sexual harassment and violence. Use this quiz to see how your school measures up. 
+          <a href="index.html"> <img class="img-fluid" src="headerSM.png" id="sideImage" alt="No Excuses"> </a>
+          <br>
+          <br>How should your high school handle a sexual harassment complaint?</h5>
+
+        <p> With the hashtag #MeToo, people are starting to call out the pervasive culture of sexual violence, and to hold institutions accountable. Let's not forget, teens can experience sexual harassment at the place they're required to go
+          everyday: high school. </p>
+
+        <p> Your school has <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html" target="_blank">responsibilities </a>when it comes to investigating and preventing sexual harassment and violence. Use
+          this quiz to see how your school measures up.
+
+          <!--
+        <p>  We’re hearing a lot about campus sexual assault at colleges, but what about high schools? Your school has <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html"> responsibilities</a> when it comes to investigating and preventing sexual harassment and violence. Use this quiz to see how your school measures up.
  </p> -->
 
-     
-        <div id="navbar" style="background-color: #F8F9FA;">
-        <button class="btn btn-outline-info btn-block bu" id="s0"> Investigation </button>
-        <button class="btn btn-outline-info btn-block bu" id="s1"> Location </button>
-        <button href="" class="btn btn-outline-info btn-block bu" id="s2"> Staffing </button>
-        <button href="" class="btn btn-outline-info btn-block bu" id="s3"> Accommodations </button>
-        <button href="" class="btn btn-outline-info btn-block bu" id="s4"> The Accused </button>
-        <button href="" class="btn btn-outline-info btn-block bu" id="s5"> Protections  </button>
-        <button href="" class="btn btn-outline-info btn-block bu" id="s6"> Next Steps </button>
 
-        </div>
-       
-       <br> 
-        <p class="small bu"> Remember, individual cases vary, and how Title IX applies may depend on the details. You can use this as a guide to general Title IX principles, but consult a lawyer about how the law applies to your particular situation. </p>
+          <div id="navbar" style="background-color: #F8F9FA;">
+            <button class="btn btn-outline-info btn-block bu" id="s0"> Investigation </button>
+            <button class="btn btn-outline-info btn-block bu" id="s1"> Location </button>
+            <button class="btn btn-outline-info btn-block bu" id="s2"> Staffing </button>
+            <button class="btn btn-outline-info btn-block bu" id="s3"> Accommodations </button>
+            <button class="btn btn-outline-info btn-block bu" id="s4"> The Accused </button>
+            <button class="btn btn-outline-info btn-block bu" id="s5"> Protections </button>
+            <button class="btn btn-outline-info btn-block bu" id="s6"> Next Steps </button>
 
-        <p class="small bu" > 
-        <strong style="color:grey; background-color: #F8F9FA;"> "No Excuses" was produced, designed and developed by  <a href="https://yri.youthradio.org/" target="_blank">Youth Radio</a>. </strong> <br>
-        Youth Team: Desmond Meagley, Christy Duong, Devin Glover, Charlie Stuip<br>
-        Staff: Asha Richardson, Teresa Chin, Shawn Wen, Lissa Soep
+          </div>
 
-        </p>
+          <br>
+          <p class="small bu"> Remember, individual cases vary, and how Title IX applies may depend on the details. You can use this as a guide to general Title IX principles, but consult a lawyer about how the law applies to your particular
+            situation. </p>
 
-        <br>
-        
+          <p class="small bu">
+            <strong style="color:grey; background-color: #F8F9FA;"> "No Excuses" was produced, designed and developed by <a href="https://yri.youthradio.org/" target="_blank">Youth Radio</a>. </strong> <br>
+            Youth Team: Desmond Meagley, Christy Duong, Devin Glover, Charlie Stuip<br>
+            Staff: Asha Richardson, Teresa Chin, Shawn Wen, Lissa Soep
+
+          </p>
+
+          <br>
+
 
       </div>
-    
-    <!--slides page --> 
 
-     <div class="col-sm-12 col-md-9 mt-5" id="slides">
-       <!--  1 -->
-       <div class="row mt-5">
-       </div>
-       <div class="row" id="1" >
-        <div class="col">
+      <!--slides page -->
+
+      <div class="col-sm-12 col-md-9 mt-5" id="slides">
+        <!--  1 -->
+        <div class="row mt-5">
         </div>
+        <div class="row" id="1">
+          <div class="col">
+          </div>
 
-        <div class="col-10 my-3">
+          <div class="col-10 my-3">
 
-          <div class="card" style="width:100%; ">
-            <div class="card-body">
-              <h3 class="card-title "> How should high schools fight sexual harassment?  </h3> 
+            <div class="card" style="width:100%; ">
+              <div class="card-body">
+                <h3 class="card-title "> How should high schools fight sexual harassment? </h3>
 
-              <p class="card-text lead"> 
-                <br>Because of a law called <a href="https://www2.ed.gov/about/offices/list/ocr/docs/tix_dis.html" target="_blank">Title IX</a>, if you are a student who has experienced <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html" target="_blank">sexual harassment or violence</a>, you have the right to ask your school to investigate, offer protections, and establish consequences. But many schools are not in compliance.  <!--with Title IX. In fact, investigations into possible mishandlings of sexual violence complaints in K-12 schools are up 500 percent since 2014. -->
-                <br> <br> Whether you're obsessively following the Harvey Weinstein news and #MeToo campaign, or just trying to protect yourself and your peers from sexual harassment, you need solid information. 
+                <p class="card-text lead">
+                  <br>Because of a law called <a href="https://www2.ed.gov/about/offices/list/ocr/docs/tix_dis.html" target="_blank">Title IX</a>, if you are a student who has experienced <a href="https://www2.ed.gov/about/offices/list/ocr/frontpage/pro-students/issues/sex-issue01.html"
+                    target="_blank">sexual harassment or violence</a>, you have the right to ask your school to investigate, offer protections, and establish consequences. But many schools are not in compliance.
+                  <!--with Title IX. In fact, investigations into possible mishandlings of sexual violence complaints in K-12 schools are up 500 percent since 2014. -->
+                  <br> <br> Whether you're obsessively following the Harvey Weinstein news and #MeToo campaign, or just trying to protect yourself and your peers from sexual harassment, you need solid information.
 
-              
-                <em> <br> <br>Curious if your school is protecting your Title IX rights? Take a moment to read through these scenarios and select the way you think your school would respond. You might be surprised with the results! 
 
-</em> </p>
-              <div id="apply" style="display:none;" >   
+                  <em> <br> <br>Curious if your school is protecting your Title IX rights? Take a moment to read through these scenarios and select the way you think your school would respond. You might be surprised with the results!
+
+                  </em> </p>
+                <div id="apply" style="display:none;">
                   <button id="ph1" class="btn-block" value="">Preventing or investigating rape, unwanted touching, inappropriate comment</button>
-                  
+
                   <button id="ph2" class="hoverbutton btn-block" value="">Addressing gender-based cyber-bullying between students, such as revenge porn</button>
 
 
@@ -229,621 +280,633 @@
                   <button id="ph4" class="hoverbutton btn-block" value="">Changing unfair access to equipment for boys’ and girls’ sports teams</button>
 
                   <button id="ph5" class="hoverbutton btn-block" value="">Granting access to the bathroom or locker room that corresponds with students’ gender identity</button>
-          </div>
-
-              <button href="#" class=" btn-block" id="btn1"  style="display:none;" ></button>
-              <br>
-              <button href="#" class="btn-block" id="btn2" style="display:none;"></button>
-              <br> 
-               <!-- <button href="#" class="btn-block" id="btn3" style="display:none;">Um, no. What is that? 
- </button> -->
-              <div class="row pb-2">
-                <div class="col-sm-12 col-md-2 text-center">
-                  <img src=' ' class="img-fluid " id="ansImage">
                 </div>
-                <div class ="col-sm-12 col-md-10">
-                 <p style="display:none;" class="result lead"> result </p>
+
+                <button class=" btn-block" id="btn1" style="display:none;"></button>
+                <br>
+                <button class="btn-block" id="btn2" style="display:none;"></button>
+                <br>
+                <!-- <button href="#" class="btn-block" id="btn3" style="display:none;">Um, no. What is that?
+ </button> -->
+                <div class="row pb-2">
+                  <div class="col-sm-12 col-md-2 text-center">
+                    <img src='' class="img-fluid " id="ansImage" alt="">
+                  </div>
+                  <div class="col-sm-12 col-md-10">
+                    <p style="display:none;" class="result lead"> result </p>
+                  </div>
+
+                </div>
+
+
+                <button class="btn btn-outline-info btn-block n1" id="n1"> next </button>
+
+
+                <div class='row story text-center' style='display: none;'>
+
+                  <div class=' col-12 px-3'>
+                    <strong> <a href="https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/" target='_blank'>
+                        <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? <br> Pressure from Teens.</h4></strong><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" alt="">
+                    <br> <em>by Charlie Stuip, Youth Radio Reporter</em> - Featured on NPR <br> </a>
+                    <audio controls='' width="500px">
+                      <source src='https://youthradio.org/wp-content/uploads/2017/08/2535642_YR_TitleIX_SexualHarassment.mp3' type='audio/mpeg'>
+                    </audio>
+                  </div>
                 </div>
 
               </div>
-              
+            </div>
+          </div>
 
-               <button class="btn btn-outline-info btn-block n1" id="n1" > next </button>
+          <div class="col">
+          </div>
 
-          
-               <div class='row story text-center' style ='display: none;'>
+        </div>
+        <!--test for audio -->
 
-               <div class=' col-12 px-3'>
-                <strong> <a href="https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/" target='_blank'> <h4> Why are High Schools Beefing Up Their Sexual Assault Policies? <br> Pressure from Teens.</h4></strong><img src='https://youthradio.org/wp-content/uploads/2017/08/20170804-IMG_8772-6-780x440.jpg' class="img-fluid center-block" >
-                <br> <em>by Charlie Stuip, Youth Radio Reporter</em> -  Featured on NPR <br> </a>
-                <audio controls='' width="500px">
-    <source src='https://youthradio.org/wp-content/uploads/2017/08/2535642_YR_TitleIX_SexualHarassment.mp3' type='audio/mpeg'>
-    </audio>
+
+      </div>
+
+
+
+
+
+
+
     </div>
   </div>
 
-            </div>
-          </div>
-        </div>
 
-        <div class="col">
-        </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-       </div>
-  <!--test for audio -->    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
 
+      var tList = ["Investigation", "Location", "Staffing", "Accommodations", "The Accused", "Protections", "Next Steps"];
 
-</div>
-      
-        
+      var dList = [
+        "A student at your high school tells a teacher they were sexually assaulted in an empty classroom by another student during a free period. What would your school's administrators be more likely to do?",
 
+        "What if the sexual assault happened between two students from your school at a party on a Saturday night? What would your school do?",
 
-
-      
-
-     </div>
-    </div>
-
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-      
-      $(document).ready(function(){
-      
-      var tList = ["Investigation", "Location" , "Staffing" , "Accommodations" , "The Accused", "Protections", "Next Steps"];
-   
-      var dList = [ 
-        "A student at your high school tells a teacher they were sexually assaulted in an empty classroom by another student during a free period. What would your school's administrators be more likely to do?", 
-
-        "What if the sexual assault happened between two students from your school at a party on a Saturday night? What would your school do?", 
-
-        "What if a teacher at school sexually harassed a senior while chaperoning a field trip, and administrators find out only after-the-fact?", 
+        "What if a teacher at school sexually harassed a senior while chaperoning a field trip, and administrators find out only after-the-fact?",
 
         "While your school is looking into a student’s sexual harassment claim, what kinds of resources would your school consider offering them? ",
 
         "What if a student at your school is accused of sexual violence. How would your school handle that situation?",
 
-        "Whoa, Title IX covers a bunch of stuff. What other ways might Title IX protections be applied at my school?", 
+        "Whoa, Title IX covers a bunch of stuff. What other ways might Title IX protections be applied at my school?",
 
-        "Now you have a better sense of whether your school is in compliance with Title IX. If there are some areas you’d like your school to work on, here are a few steps you can take.", ];
+        "Now you have a better sense of whether your school is in compliance with Title IX. If there are some areas you’d like your school to work on, here are a few steps you can take.",
+      ];
 
-      var opt1 = ["Encourage the student to tell the police or connect to outside resources, but not investigate the matter personally -- school administrators care about students, but it’s not their role to investigate these matters.", 
+      var opt1 = ["Encourage the student to tell the police or connect to outside resources, but not investigate the matter personally -- school administrators care about students, but it’s not their role to investigate these matters.",
 
-      "What happens off-campus stays off-campus. The school can't get involved in incidents that take place in students' private homes.",
+        "What happens off-campus stays off-campus. The school can't get involved in incidents that take place in students' private homes.",
 
-      "That’s terrible. But the school can’t be responsible for remedying the effects of the harassment, since no one but the teacher and student knew about it at the time. ",
+        "That’s terrible. But the school can’t be responsible for remedying the effects of the harassment, since no one but the teacher and student knew about it at the time. ",
 
-      "None. Your school is not required to provide any supports while an investigation is still underway. It depends on if they find the accused student guilty of any wrongdoing.",
+        "None. Your school is not required to provide any supports while an investigation is still underway. It depends on if they find the accused student guilty of any wrongdoing.",
 
-      "The student can no longer go to that school, period. While adults are investigating the accusations, the school’s first priority would be to permanently expel the accused student, to keep everyone safe. ", ];
+        "The student can no longer go to that school, period. While adults are investigating the accusations, the school’s first priority would be to permanently expel the accused student, to keep everyone safe. ",
+      ];
 
       var opt2 = ["Have an administrator investigate the allegations -- that’s part of the school’s job, regardless of whether the student decides to involve the police.",
-       "Have an administrator investigate the allegations and decide on consequences and protections.",
-      "The school ends the sexual harassment, ensures that it will never happen again, and takes responsibility for remedying effects on the student.",
+        "Have an administrator investigate the allegations and decide on consequences and protections.",
+        "The school ends the sexual harassment, ensures that it will never happen again, and takes responsibility for remedying effects on the student.",
 
-      "Supports such as free counseling services, the ability to change your class schedule, academic tutoring, medical  support, and extra security.",
-      "The school allows both the accused student and the alleged victim to bring in witnesses and other evidence, to represent their sides.",];
+        "Supports such as free counseling services, the ability to change your class schedule, academic tutoring, medical  support, and extra security.",
+        "The school allows both the accused student and the alleged victim to bring in witnesses and other evidence, to represent their sides.",
+      ];
 
       var opt3 = ["quest1", "quest 2"];
 
-      var ans1 = [" ", " <strong class='incom'> NON-COMPLIANCE </strong> <br>  Actually, your school IS supposed to investigate. Federal law (Title IX) requires that schools <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>look into</a> complaints of sexual harassment and assault. Title IX has been around since the 1970s to combat gender discrimination in schools, but in recent years, it has been increasingly applied to sexual assault complaints.",
+      var ans1 = [" ",
+        " <strong class='incom'> NON-COMPLIANCE </strong> <br>  Actually, your school IS supposed to investigate. Federal law (Title IX) requires that schools <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>look into</a> complaints of sexual harassment and assault. Title IX has been around since the 1970s to combat gender discrimination in schools, but in recent years, it has been increasingly applied to sexual assault complaints.",
 
-      '<strong class="incom"> NON-COMPLIANCE </strong> <br> Actually, even though the incident took place <a href="https://www2.ed.gov/about/offices/list/ocr/docs/qa-201404-title-ix.pdf" target="_blank">off-campus</a>, schools may still have to investigate. Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs to act.',
+        '<strong class="incom"> NON-COMPLIANCE </strong> <br> Actually, even though the incident took place <a href="https://www2.ed.gov/about/offices/list/ocr/docs/qa-201404-title-ix.pdf" target="_blank">off-campus</a>, schools may still have to investigate. Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs to act.',
 
-      "<strong class='incom'> NON-COMPLIANCE </strong> <br> The Office of Civil Rights says even if a school was not “on notice” about an employee sexually harassing a student, if the employee did so in the context of their student-serving role, the school is on the hook for ending the harassment, preventing its recurrence, and remedying the effects of the wrongdoing on the student.",
+        "<strong class='incom'> NON-COMPLIANCE </strong> <br> The Office of Civil Rights says even if a school was not “on notice” about an employee sexually harassing a student, if the employee did so in the context of their student-serving role, the school is on the hook for ending the harassment, preventing its recurrence, and remedying the effects of the wrongdoing on the student.",
 
-      "<strong class='incom'>NON-COMPLIANCE</strong> <br> Your school needs to step up. A student should have the right to <a href='https://www2.ed.gov/about/offices/list/ocr/docs/know-rights-201404-title-ix.pdf' target='_blank'>certain accommodations</a> before, during, and after an investigation. The type of support they’re entitled to depends on the situation, but may include counseling and academic support services.",
+        "<strong class='incom'>NON-COMPLIANCE</strong> <br> Your school needs to step up. A student should have the right to <a href='https://www2.ed.gov/about/offices/list/ocr/docs/know-rights-201404-title-ix.pdf' target='_blank'>certain accommodations</a> before, during, and after an investigation. The type of support they’re entitled to depends on the situation, but may include counseling and academic support services.",
 
-      "<strong class='incom'>NON-COMPLIANCE</strong> <br>Access to free public education is a civil right for students in the United States. So while your school has to provide a safe environment for the alleged victim, it can’t deprive the accused student of that right without investigating the allegations and giving them an <a href=' https://drive.google.com/file/d/0BzdfZFwI9gz8MGpFNnM4cHlCbHhXQnRMS0Y2UXJSUGZyZXJv/view' target='_blank'>opportunity</a> to present their side of the story, including evidence and witnesses. "];
+        "<strong class='incom'>NON-COMPLIANCE</strong> <br>Access to free public education is a civil right for students in the United States. So while your school has to provide a safe environment for the alleged victim, it can’t deprive the accused student of that right without investigating the allegations and giving them an <a href=' https://drive.google.com/file/d/0BzdfZFwI9gz8MGpFNnM4cHlCbHhXQnRMS0Y2UXJSUGZyZXJv/view' target='_blank'>opportunity</a> to present their side of the story, including evidence and witnesses. "
+      ];
 
-      var ans2 = [" ", " <strong class='com'> COMPLIANCE </strong> <br>  That’s right. Title IX <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>requires schools to look into allegations of sexual harassment and assault</a>. Title IX has been around since the 1970s to combat gender discrimination in schools, but in recent years it has been increasingly applied to sexual assault complaints.", 
+      var ans2 = [" ",
+        " <strong class='com'> COMPLIANCE </strong> <br>  That’s right. Title IX <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>requires schools to look into allegations of sexual harassment and assault</a>. Title IX has been around since the 1970s to combat gender discrimination in schools, but in recent years it has been increasingly applied to sexual assault complaints.",
 
-      '<strong class="com">COMPLIANCE </strong> <br> Yup -- even though the incident took place <a href="https://www2.ed.gov/about/offices/list/ocr/docs/qa-201404-title-ix.pdf" target="_blank">off-campus</a>, schools may still have to investigate. Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs to act.',
+        '<strong class="com">COMPLIANCE </strong> <br> Yup -- even though the incident took place <a href="https://www2.ed.gov/about/offices/list/ocr/docs/qa-201404-title-ix.pdf" target="_blank">off-campus</a>, schools may still have to investigate. Title IX says schools have to ensure a safe and equal learning environment. If a student feels an assault creates a "hostile environment" at school (for example, because being in the same class as the person who assaulted them over the weekend makes it hard to concentrate), the school needs to act.',
 
-      " <strong class='com'> COMPLIANCE</strong> <br> The Office of Civil Rights says even if a school was not “on notice” about an employee sexually harassing a student, if the employee did so in the context of their student-serving role, the school is on the hook for ending the harassment, preventing its recurrence, and remedying the effects of the wrongdoing on the student.", 
+        " <strong class='com'> COMPLIANCE</strong> <br> The Office of Civil Rights says even if a school was not “on notice” about an employee sexually harassing a student, if the employee did so in the context of their student-serving role, the school is on the hook for ending the harassment, preventing its recurrence, and remedying the effects of the wrongdoing on the student.",
 
-      " <strong class='com'>COMPLIANCE </strong> <br>Your school is on track. A student should have the right to <a href='https://www2.ed.gov/about/offices/list/ocr/docs/know-rights-201404-title-ix.pdf' target=''>certain accommodations</a> before, during, and after an investigation. The type of support they’re entitled to depends on the situation, but may include counseling and academic support services.",
+        " <strong class='com'>COMPLIANCE </strong> <br>Your school is on track. A student should have the right to <a href='https://www2.ed.gov/about/offices/list/ocr/docs/know-rights-201404-title-ix.pdf' target=''>certain accommodations</a> before, during, and after an investigation. The type of support they’re entitled to depends on the situation, but may include counseling and academic support services.",
 
-      " <strong class='com'> COMPLIANCE </strong> <br> Your school’s on track here. Access to free public education is a civil right for students in the United States. So while your school has to provide a safe environment for the alleged victim, it can’t deprive the accused student of that right without investigating the allegations and giving them an <a href='https://drive.google.com/file/d/0BzdfZFwI9gz8MGpFNnM4cHlCbHhXQnRMS0Y2UXJSUGZyZXJv/view' target='_blank'>opportunity</a> to present their side of the story, including evidence and witnesses.",];
+        " <strong class='com'> COMPLIANCE </strong> <br> Your school’s on track here. Access to free public education is a civil right for students in the United States. So while your school has to provide a safe environment for the alleged victim, it can’t deprive the accused student of that right without investigating the allegations and giving them an <a href='https://drive.google.com/file/d/0BzdfZFwI9gz8MGpFNnM4cHlCbHhXQnRMS0Y2UXJSUGZyZXJv/view' target='_blank'>opportunity</a> to present their side of the story, including evidence and witnesses.",
+      ];
 
 
-      var imgL = ["investigate.png","schoolparty.png", "IX.png","chalkboard.png","privacyV2.png","title.png",  "protections.png"];
+      var imgL = ["investigate.jpg", "schoolparty.jpg", "IX.jpg", "chalkboard.jpg", "privacyV2.jpg", "title.jpg", "protections.jpg"];
 
-      var ansImg1 =["","Nope.png","Nope.png","Nope.png","Nope.png","Nope.png",];
-      var ansImg2 =["","Yup.png","Yup.png","Yup.png","Yup.png","Yup.png",];
+      var ansImg1 = ["", "Nope.png", "Nope.png", "Nope.png", "Nope.png", "Nope.png", ];
+      var ansImg2 = ["", "Yup.png", "Yup.png", "Yup.png", "Yup.png", "Yup.png", ];
       var nope = "Nope.png"
-  
-      var index = 0; 
-      var bar = -1;  
+
+      var index = 0;
+      var bar = -1;
       var vIndex = 0;
       $("#start").click(function() {
         $("#splash").fadeOut("slow");
         $("#t9").fadeIn("slow");
-        $("body").css("background-image", "url('rollover.png')");
+        $("body").css("background-image", "url('rollover.jpg')");
         $("#ansImage").hide();
 
 
       });
 
-      $("body").css("background-image", "url('splash.png')");
+      $("body").css("background-image", "url('splash.jpg')");
 
-      $("#ph1").hover(function(){
+      $("#ph1").hover(function() {
         $(this).css("background-color", "#31A62C");
         $(this).html("Yup, Title IX covers this.")
-        }, function(){
+      }, function() {
         $(this).css("background-color", "white");
         $(this).html("Preventing or investigating rape, unwanted touching, inappropriate comments");
-    });
-  
-      $("#ph2").hover(function(){
+      });
+
+      $("#ph2").hover(function() {
         $(this).css("background-color", "#31A62C");
         $(this).html("Yup, Title IX covers this.")
-        }, function(){
+      }, function() {
         $(this).css("background-color", "white");
         $(this).html("Addressing gender-based cyber-bullying between students, such as revenge porn");
-    });
+      });
 
-      $("#ph3").hover(function(){
+      $("#ph3").hover(function() {
         $(this).css("background-color", "#E26970");
         $(this).html("Nope. This sounds pretty cool, but Title IX technically doesn’t cover this.")
-        }, function(){
+      }, function() {
         $(this).css("background-color", "white");
         $(this).html("Changing the curriculum to make sure women’s history and rights are being taught in class");
-    });
+      });
 
-      $("#ph4").hover(function(){
-              $(this).css("background-color", "#31A62C");
-              $(this).html("Yup, Title IX covers this.")
-              }, function(){
-              $(this).css("background-color", "white");
-              $(this).html("Changing unfair access to equipment for boys’ and girls’ sports teams");
-          });
+      $("#ph4").hover(function() {
+        $(this).css("background-color", "#31A62C");
+        $(this).html("Yup, Title IX covers this.")
+      }, function() {
+        $(this).css("background-color", "white");
+        $(this).html("Changing unfair access to equipment for boys’ and girls’ sports teams");
+      });
 
-      $("#ph5").hover(function(){
-              $(this).css("background-color", "#E5B350");
-              $(this).html("Possibly. There is political debate on whether this is covered by Title IX.")
-              }, function(){
-              $(this).css("background-color", "white");
-              $(this).html("Granting access to the bathroom or locker room that corresponds with students’ gender identity");
-          });
+      $("#ph5").hover(function() {
+        $(this).css("background-color", "#E5B350");
+        $(this).html("Possibly. There is political debate on whether this is covered by Title IX.")
+      }, function() {
+        $(this).css("background-color", "white");
+        $(this).html("Granting access to the bathroom or locker room that corresponds with students’ gender identity");
+      });
 
 
 
-      $("#btn1").click(function(){
-          $("#n1").fadeIn("slow");
-          $("#ansImage").show();
-          $(".result").html(ans1[index]);
-          $("#ansImage").attr('src',ansImg1[index]);
-          $(".result").fadeIn();
+      $("#btn1").click(function() {
+        $("#n1").fadeIn("slow");
+        $("#ansImage").show();
+        $(".result").html(ans1[index]);
+        $("#ansImage").attr('src', ansImg1[index]);
+        $(".result").fadeIn();
+        $("#btn1").hide();
+        $("#btn2").hide();
+        $("#btn3").hide();
+        $("#story").hide();
+        $()
+
+
+
+      });
+
+
+
+
+      $("#btn2").click(function() {
+        $("#n1").fadeIn("slow");
+        $(".result").html(ans2[index]);
+        $("#ansImage").show();
+        $("#ansImage").attr('src', ansImg2[index]);
+        $(".result").fadeIn();
+        $("#btn1").hide();
+        $("#btn2").hide();
+        $("#btn3").hide();
+        $("#story").hide();
+
+
+      });
+
+      $("#btn3").click(function() {
+        $("#n1").fadeIn("slow");
+        $(".result").html(
+          "<strong class='incom'> NON-COMPLIANCE </strong><br> Your school has work to do. Every school is supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints."
+        );
+        $("#ansImage").show();
+        $("#ansImage").attr('src', ansImg1[1]);
+
+        $(".result").fadeIn();
+        $("#btn1").hide();
+        $("#btn2").hide();
+        $("#btn3").hide();
+        $("#story").hide();
+
+
+
+      });
+
+
+      $("#n1").click(function() {
+        vIndex = vIndex + 1;
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#ansImage").hide();
+
+
+
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+          $("#apply").hide();
+
+
+        } else if (index === 6) {
+          $("#apply").fadeIn();
           $("#btn1").hide();
           $("#btn2").hide();
           $("#btn3").hide();
-          $("#story").hide();
-          $()
-
-
-          
-      });
-
-   
-
-
-       $("#btn2").click(function(){
-          $("#n1").fadeIn("slow");
-            $(".result").html(ans2[index]);
-            $("#ansImage").show();
-            $("#ansImage").attr('src',ansImg2[index]);
-            $(".result").fadeIn();
-            $("#btn1").hide();
-            $("#btn2").hide();
-            $("#btn3").hide();
-             $("#story").hide();
-          
-
-      });
-
-      $("#btn3").click(function(){
-          $("#n1").fadeIn("slow");
-            $(".result").html("<strong class='incom'> NON-COMPLIANCE </strong><br> Your school has work to do. Every school is supposed to have a <a href='https://www.justice.gov/crt/federal-coordination-and-compliance-section-152' target='_blank'>Title IX Coordinator</a>. They are responsible for making sure students are aware of their Title IX rights, and that your school is in compliance with the law. Their responsibilities include moderating grievance procedures and training staff about how to handle Title IX-related complaints.");            
-            $("#ansImage").show();
-             $("#ansImage").attr('src',ansImg1[1]);
-
-            $(".result").fadeIn();
-            $("#btn1").hide();
-            $("#btn2").hide();
-            $("#btn3").hide();
-             $("#story").hide();
-
-          
-
-      });
-
-
-        $("#n1").click(function(){
-          vIndex = vIndex + 1; 
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-         $("#ansImage").hide();
-
-
-
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
-
-          if (index === 3){
-            $("#btn3").fadeIn();
-            $("#apply").hide();
-
-
-          } else if (index === 6 ){
-            $("#apply").fadeIn();
-            $("#btn1").hide();
-            $("#btn2").hide();
-            $("#btn3").hide();
-            $("#n1").fadeIn("slow")
-
-
-
-          }else if (index === 7){
-            $("#apply").fadeOut();
-            $("#btn1 ").hide();
-            $("#btn2").hide();
-            $("#btn3").hide();
-            $(".card-text").append("<br><br><ul><li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a></li></ul> For more ideas and resources, refer to <a href='https://www.knowyourix.org/' target='_blank'>Know Your IX</a>. And check out Youth Radio’s <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>report</a> on how students are holding their schools accountable below.  ");
-            $(".story").show();
-
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-          ;
-
-
-          
-
-        });
-
-
-
-        $("#s0").click(function(){
-         
-          index = 0;
-          bar = -1;
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-          $("#apply").fadeOut();
-           $(".story").hide();
-          $("#ansImage").hide();
-
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
-
-          $("#s1").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s6").removeClass("active");
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-
-        });
-
-        $("#s1").click(function(){
-         
-          index = 1;
-          bar = 0;
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-          $("#apply").fadeOut();
-           $(".story").hide();
-           $("#ansImage").hide();
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
-
-
-          $("#s0").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s6").removeClass("active");
-           $(".story").hide();
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-
-
-        });
-
-        $("#s2").click(function(){
-         
-          index = 2;
-          bar = 1;
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-          $("#apply").fadeOut();
-          $("#ansImage").hide();
-          $(".story").hide();
-
-
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
-
-          $("#s1").removeClass("active");
-          $("#s0").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s6").removeClass("active");
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-        });
-     
-     
-         $("#s3").click(function(){
-         
-          index = 3;
-          bar = 2;
-         
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-          $("#apply").fadeOut();
-           $(".story").hide();
-           $("#ansImage").hide();
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
-
-          $("#s1").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s0").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s6").removeClass("active");
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-        });
-
-
-          $("#s4").click(function(){
-         
-          index = 4;
-          bar = 3;
-
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").fadeIn();
-          $("#btn2").fadeIn();
-          $("#apply").fadeOut();
-          $(".story").hide();
-          $("#ansImage").hide();
-        
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut();
-
-          $("#s1").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s0").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s6").removeClass("active");
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-        });
-      
-
-      
-         $("#s5").click(function(){
-         
-          index = 5;
-          bar = 4;
-
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[5]);
-          $("#btn2").html(opt2[5]);
-          $("#btn1").fadeOut();
-          $("#btn2").fadeOut();
-          $("#apply").fadeIn();
-           $(".story").hide();
-           $("#ansImage").hide();
-
-     
-
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
           $("#n1").fadeIn("slow")
-          $(".result").fadeOut("");
-
-          $("#s1").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s0").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s6").removeClass("active");
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-        });
-
-          
 
 
-         $("#s6").click(function(){
-         
-          index = 6;
-          bar = 5;
-          $("#ansImage").hide();
 
-
-           if (index === 3){
-            $("#btn3").fadeIn(); 
-          } else if (index === 7){
-            $("#btn1").hide();
-            $("#btn2").hide();
-            $("#btn3").hide();
-           
-          } else {
-            $("#btn3").fadeOut();
-          }
-
-          $("body").css("background-image", 'url(' + imgL[index] + ')');
-          $("#s"+index).addClass("active");
-          $(".card-title").html(tList[index]);
-          $(".card-text").html(dList[index]);
-          $("#btn1").html(opt1[index]);
-          $("#btn2").html(opt2[index]);
-          $("#btn1").hide();
-          $("#btn2").hide();
+        } else if (index === 7) {
           $("#apply").fadeOut();
-          $(".card-text").append("<br><br><ul><li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a></li></ul> For more ideas and resources, refer to <a href='https://www.knowyourix.org/' target='_blank'>Know Your IX</a>. And check out Youth Radio’s <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>report</a> on how students are holding their schools accountable below.");
+          $("#btn1 ").hide();
+          $("#btn2").hide();
+          $("#btn3").hide();
+          $(".card-text").append(
+            "<br><br><ul><li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a></li></ul> For more ideas and resources, refer to <a href='https://www.knowyourix.org/' target='_blank'>Know Your IX</a>. And check out Youth Radio’s <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>report</a> on how students are holding their schools accountable below.  "
+          );
           $(".story").show();
 
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+        ;
 
 
 
-          index = index + 1;
-         
-          $("#s"+bar).removeClass("active");
-          bar = bar + 1;
-          $("#n1").hide();
-          $(".result").fadeOut("");
 
-          $("#s1").removeClass("active");
-          $("#s2").removeClass("active");
-          $("#s3").removeClass("active");
-          $("#s4").removeClass("active");
-          $("#s5").removeClass("active");
-          $("#s0").removeClass("active");
-
-        });
-
-        
-      
+      });
 
 
-        });
 
-    </script>
+      $("#s0").click(function() {
+
+        index = 0;
+        bar = -1;
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#apply").fadeOut();
+        $(".story").hide();
+        $("#ansImage").hide();
+
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+        $("#s1").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s6").removeClass("active");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+
+      });
+
+      $("#s1").click(function() {
+
+        index = 1;
+        bar = 0;
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#apply").fadeOut();
+        $(".story").hide();
+        $("#ansImage").hide();
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+
+        $("#s0").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s6").removeClass("active");
+        $(".story").hide();
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+
+
+      });
+
+      $("#s2").click(function() {
+
+        index = 2;
+        bar = 1;
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#apply").fadeOut();
+        $("#ansImage").hide();
+        $(".story").hide();
+
+
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+        $("#s1").removeClass("active");
+        $("#s0").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s6").removeClass("active");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+      });
+
+
+      $("#s3").click(function() {
+
+        index = 3;
+        bar = 2;
+
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#apply").fadeOut();
+        $(".story").hide();
+        $("#ansImage").hide();
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+        $("#s1").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s0").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s6").removeClass("active");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+      });
+
+
+      $("#s4").click(function() {
+
+        index = 4;
+        bar = 3;
+
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").fadeIn();
+        $("#btn2").fadeIn();
+        $("#apply").fadeOut();
+        $(".story").hide();
+        $("#ansImage").hide();
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut();
+
+        $("#s1").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s0").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s6").removeClass("active");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+      });
+
+
+
+      $("#s5").click(function() {
+
+        index = 5;
+        bar = 4;
+
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[5]);
+        $("#btn2").html(opt2[5]);
+        $("#btn1").fadeOut();
+        $("#btn2").fadeOut();
+        $("#apply").fadeIn();
+        $(".story").hide();
+        $("#ansImage").hide();
+
+
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").fadeIn("slow")
+        $(".result").fadeOut("");
+
+        $("#s1").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s0").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s6").removeClass("active");
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+      });
+
+
+
+
+      $("#s6").click(function() {
+
+        index = 6;
+        bar = 5;
+        $("#ansImage").hide();
+
+
+        if (index === 3) {
+          $("#btn3").fadeIn();
+        } else if (index === 7) {
+          $("#btn1").hide();
+          $("#btn2").hide();
+          $("#btn3").hide();
+
+        } else {
+          $("#btn3").fadeOut();
+        }
+
+        $("body").css("background-image", 'url(' + imgL[index] + ')');
+        $("#s" + index).addClass("active");
+        $(".card-title").html(tList[index]);
+        $(".card-text").html(dList[index]);
+        $("#btn1").html(opt1[index]);
+        $("#btn2").html(opt2[index]);
+        $("#btn1").hide();
+        $("#btn2").hide();
+        $("#apply").fadeOut();
+        $(".card-text").append(
+          "<br><br><ul><li>Approach administration and ask for a policy</li> <li>Attend a school board meeting and advocate for compliance</li><li>Host a discussion at your school with stakeholders including students, teachers and staff</li> <li> Start a petition</li> <li> <a href='https://www.knowyourix.org/legal-action/taking-legal-action-title-ix/'> File a complaint with the Office for Civil Rights</a></li></ul> For more ideas and resources, refer to <a href='https://www.knowyourix.org/' target='_blank'>Know Your IX</a>. And check out Youth Radio’s <a href='https://youthradio.org/journalism/education/why-are-high-schools-beefing-up-their-sexual-assault-policies-pressure-from-teens/' target='_blank'>report</a> on how students are holding their schools accountable below."
+        );
+        $(".story").show();
+
+
+
+
+        index = index + 1;
+
+        $("#s" + bar).removeClass("active");
+        bar = bar + 1;
+        $("#n1").hide();
+        $(".result").fadeOut("");
+
+        $("#s1").removeClass("active");
+        $("#s2").removeClass("active");
+        $("#s3").removeClass("active");
+        $("#s4").removeClass("active");
+        $("#s5").removeClass("active");
+        $("#s0").removeClass("active");
+
+      });
+
+
+
+
+
+    });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function(b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] || (b[l] =
-                function() {
-                    (b[l].q = b[l].q || []).push(arguments)
-                });
-            b[l].l = +new Date;
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = '//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e, r)
-        }(window, document, 'script', 'ga'));
-        ga('create', 'UA-6029148-1', 'auto');
-        ga('send', 'pageview');
-    </script>  
-  </body>
+  <script>
+    // (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-6029148-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
 </html>

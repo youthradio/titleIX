@@ -1,10 +1,36 @@
 
-      
-body{
-	margin: 0;
-	position:relative;
-	overflow-x: hidden;
+body {
+  padding-top: 81px;
 }
+
+header.yr-fixed-header {
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 32px;
+  height: 81px;
+  background-color: #2E2E2E;
+}
+
+header.yr-fixed-header .logo a {
+  display: block;
+  outline: 0;
+  width: 40px;
+  height: 40px;
+}
+
+header.yr-fixed-header .search a {
+  display: block;
+  outline: 0;
+  width: 29px;
+  height: 29px;
+}
+
 
 audio {
 width:100%;
@@ -73,7 +99,7 @@ margin-bottom:5px;
     50%{background-position:100% 59%}
     100%{background-position:0% 42%}
 }
-@keyframes splashbg { 
+@keyframes splashbg {
     0%{background-position:0% 42%}
     50%{background-position:100% 59%}
     100%{background-position:0% 42%}
@@ -260,7 +286,7 @@ button {
 
 
 /* Media queries for mobile */
-@media only screen 
+@media only screen
 and (min-width: 0px)
 and (max-width: 667px){
 
@@ -353,7 +379,7 @@ and (max-width: 667px){
 		font-size: 1.0rem;
 	}
 
-	
+
 
 	/* This would cause the navbar items to be laid down horizontally instead of vertically */
 	.flex-sm-column{
@@ -365,6 +391,3 @@ and (max-width: 667px){
 	}
 
 }
-
-
-
